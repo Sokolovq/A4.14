@@ -1,0 +1,163 @@
+@font-face {
+	font-family: 'OpenSans-Bold';
+    src: url('../fonts/OpenSans-Bold.ttf');
+    font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OpenSans-ExtraBold';
+	src: url('../fonts/OpenSans-ExtraBold.ttf');
+	font-weight: 800;
+	font-style: normal;
+
+}
+@font-face {
+	font-family: 'OpenSans-Regular';
+	src: url('../fonts/OpenSans-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+background-color: #F6F2F2;
+}
+
+.items {
+	display: flex;
+	justify-content: center;
+	background-color: #000000;
+    margin: 29px 165px;
+    flex-wrap: wrap;
+    max-width: 1249px;
+    min-height: 89px;
+}
+
+.item {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background-color: #000000;
+	margin: 0 29px;
+	height: 89px;
+	width: 90px;
+	font-size: 14px;
+	font-family: 'OpenSans-Bold';
+}
+
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+	margin: 0px 9px;
+}
+
+.item:hover {
+	background: #FF3F40; 
+}
+
+.abc {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	max-width: 1249px;
+	margin: 103px 165px;
+} 
+	
+.left {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 624px;
+	min-height: 356px;
+}
+.right {
+	display: flex;
+	justify-content: flex-end;
+	max-width: 624px;
+	min-height: 356px;
+}
+
+.a {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 618px;
+	min-height: 89px;
+	font-size: 30px;
+	font-family: 'OpenSans-ExtraBold';
+}
+
+h1 {
+	margin: 0px;
+}
+
+.b {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 545px;
+	min-height: 73px;
+	font-size: 16px;
+	font-family: 'OpenSans-Regular';
+}
+
+.c {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	max-width: 227px;
+	min-height: 55px;
+	background-color: #FF2D2D;
+	font-size: 18px;
+	font-family: 'OpenSans-Bold';
+}
+
+.z {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1586px;
+	min-height: 113px;
+	background: #313030;
+}
+
+.zl {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 793px;
+	min-height: 26px;
+	color: #B8B8B8;
+	font-size: 16px;
+	font-family: 'OpenSans-Regular';
+}
+
+.zr {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: center;
+	max-width: 793px;
+	min-height: 34px;
+}
+
+@media screen and (max-width: 1533px) {
+	.left {
+		justify-content: center;
+		align-items: center;
+		margin: 0 0 103px 0;
+		text-align: center;
+	}
+	}
+@media screen and (max-width: 530px) {
+	.left-right {
+		flex-wrap: wrap;
+    }
+    .a {
+    	font-size: 100%;
+    }
+	}
+	
+
+
+
+
